@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700;&display=swap');
+
+body {
+	font-family: 'Karla', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400, 700;
+	font-style: normal;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
