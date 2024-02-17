@@ -6,6 +6,34 @@ body {
 	font-weight: 400, 700;
 	font-style: normal;
 }
+
+.SPGSub {
+	display: flex;
+	flex-direction: row;
+}
+
+.Sub,
+.subDollar {
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+.monthlySub {
+	background-color: hsl(179, 62%, 43%);
+}
+
+.subBtn {
+	background-color: hsl(71, 73%, 54%);
+	color: #fff;
+}
+
+.whySec {
+	background-color: hsl(218, 22%, 67%);
+}
+
+.monthly {
+	font-size: 1em;
+}
 .attribution {
 	font-size: 11px;
 	text-align: center;

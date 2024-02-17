@@ -15,13 +15,13 @@
 
 		<link
 			rel="stylesheet"
-			href="styles.css" />
+			href="./Style/styles.css" />
 
 		<title>Frontend Mentor | Single Price Grid Component</title>
 	</head>
 	<body>
-		<main>
-			<div>
+		<main class="SPG">
+			<div class="Community">
 				<h1>Join our community</h1>
 				<p>30-day, hassle-free money back guarantee</p>
 				<p>
@@ -30,19 +30,24 @@
 					skills.
 				</p>
 			</div>
-			<div>
-				<p>Monthly Subscription</p>
-				<p>&dollar;29 per month</p>
-				<p>Full access for less than &dollar;1 a day</p>
-				<button>Sign Up</button>
-			</div>
-			<div>
-				<p>Why Us</p>
-				<p>
-					Tutorials by industry experts Peer &amp; expert code review Coding
-					exercises Access to our GitHub repos Community forum Flashcard decks
-					New videos every week
-				</p>
+			<div class="SPGSub">
+				<div class="monthlySub">
+					<p class="Sub">Monthly Subscription</p>
+					<p class="subDollar">
+						&dollar;29 <span class="monthly">per month</span>
+					</p>
+
+					<p class="Access">Full access for less than &dollar;1 a day</p>
+					<button class="subBtn">Sign Up</button>
+				</div>
+				<div class="whySec">
+					<p>Why Us</p>
+					<p>
+						Tutorials by industry experts Peer &amp; expert code review Coding
+						exercises Access to our GitHub repos Community forum Flashcard decks
+						New videos every week
+					</p>
+				</div>
 			</div>
 		</main>
 		<footer>
