@@ -19,12 +19,17 @@ body {
 }
 
 .monthlySub {
+	min-height: 56vh;
 	background-color: hsl(179, 62%, 43%);
 }
 
 .subBtn {
+	/* top | right | bottom | left */
+	padding: 0.5em 3em 0.5em 3em;
 	background-color: hsl(71, 73%, 54%);
 	color: #fff;
+	border-radius: 0.75em;
+	border: none;
 }
 
 .whySec {
