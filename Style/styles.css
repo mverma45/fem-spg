@@ -29,7 +29,8 @@ body {
 
 .priceCard,
 .Plan,
-.Gain {
+.Gain,
+.Access {
 	/* top | right | bottom | left */
 	margin: 1em 4em 2em 2em;
 }
@@ -40,6 +41,8 @@ body {
 }
 
 .Pricing {
+	/* display: flex;
+	flex-direction: row; */
 	background-color: hsl(179, 62%, 43%);
 }
 
@@ -67,34 +70,24 @@ body {
 .subBtn {
 	background-color: hsl(71, 73%, 54%);
 	color: #fff;
+	/* top | right | bottom | left */
+	padding: 1em 3em 1em 3em;
+	margin: 1em 1em 1em 4em;
+	border: none;
+	border-radius: 0.2em;
 }
 
-@media (width: 50%) {
+@media (max-width: 5em) {
 	.hero_main {
-		display: grid;
-		grid-template-rows: auto;
-	}
-	/*
-	.monthlySub {
-		background-color: hsl(179, 62%, 43%);
-		color: #fff;
-		padding: 2em 2em 2em 2em;
-	}
-
-	.SPGSub {
-		display: flex;
-		flex-direction: column;
-		padding-right: 5em;
-		width: 100%;
-	}
-
-	.Why {
 		display: flex;
 		flex-direction: row;
-		width: auto;
-		padding: 0 0.5em 0.5em 0;
 	}
-	*/
+
+	.Pricing {
+		/* display: flex;
+		flex-direction: row; */
+		background-color: hsl(179, 62%, 43%);
+	}
 }
 
 .attribution a {
