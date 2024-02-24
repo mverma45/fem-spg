@@ -34,6 +34,7 @@ body {
 	/* top | right | bottom | left */
 	margin: 1em 4em 2em 2em;
 }
+
 .MPlans {
 	display: grid;
 	grid-template-columns: auto;
@@ -86,13 +87,12 @@ body {
 
 @media (width: 15em) {
 	.MPlans {
-		display: flex;
-		flex-direction: row;
+		display: grid;
+		grid-template-columns: max-content;
+		grid-template-rows: max-content;
 	}
 
 	.Pricing {
-		/* display: flex;
-		flex-direction: row; */
 		background-color: hsl(179, 62%, 43%);
 	}
 }
