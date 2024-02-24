@@ -64,7 +64,14 @@ body {
 }
 
 .why {
-	background-color: hsl(218, 22%, 67%);
+	background-color: hsl(177, 56%, 50%);
+}
+
+.whyAbout,
+.whyTut {
+	/* top | right | bottom | left */
+	margin: 1em 4em 2em 2em;
+	color: #fff;
 }
 
 .subBtn {
@@ -77,8 +84,8 @@ body {
 	border-radius: 0.2em;
 }
 
-@media (max-width: 5em) {
-	.hero_main {
+@media (width: 15em) {
+	.MPlans {
 		display: flex;
 		flex-direction: row;
 	}
