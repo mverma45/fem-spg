@@ -37,8 +37,9 @@ body {
 
 .MPlans {
 	display: grid;
-	grid-template-columns: auto;
-	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-flow: column;
 }
 
 .Pricing {
@@ -85,16 +86,16 @@ body {
 	border-radius: 0.2em;
 }
 
-@media (width: 15em) {
+@media (width: 50px) {
 	.MPlans {
 		display: grid;
-		grid-template-columns: max-content;
-		grid-template-rows: max-content;
+		grid-template-rows: auto;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-flow: row;
 	}
-
-	.Pricing {
+	/* .Pricing {
 		background-color: hsl(179, 62%, 43%);
-	}
+	} */
 }
 
 .attribution a {
