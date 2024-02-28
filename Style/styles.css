@@ -47,15 +47,24 @@ body {
 	background-color: hsl(179, 62%, 43%);
 }
 
-.pricingSub,
-.planAmount {
+.pricingSub {
 	/* top | right | bottom | left */
-	margin: 1em 4em 2em 2em;
+	margin: 2em 4em 2em 2em;
 	color: #fff;
+	font-weight: bold;
+}
+
+.planAmount {
+	margin: 1em 4em 2em 1em;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 3em;
 }
 
 .pMonth {
+	font-size: 0.5em;
 	color: hsl(204, 43%, 93%);
+	font-weight: 100;
 }
 
 .Access,
