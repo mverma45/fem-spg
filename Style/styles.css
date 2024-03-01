@@ -26,18 +26,27 @@ body {
 	color: hsl(218, 22%, 67%);
 }
 
-.priceCard,
-.Plan,
-.Gain,
-.Access {
+.priceCard {
 	/* top | right | bottom | left */
-	margin: 1em 4em 2em 2em;
+	margin: 1em 0 1em 0;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.Plan {
+	/* top | right | bottom | left */
+	font-weight: 2em;
+	font-size: 1.2em;
+}
+
+.Gain {
+	font-size: 1.6em;
+	line-height: 1.6;
 }
 
 .MPlans {
 	display: grid;
-	grid-template-rows: auto;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: minmax(15em, auto);
 	grid-auto-flow: column;
 }
 
@@ -108,7 +117,24 @@ body {
 	.MPlans {
 		display: grid;
 		grid-template-rows: repeat(3, 2fr);
-		/* width: 61em; */
+	}
+
+	.priceCard {
+		font-size: 2em;
+		font-weight: 500;
+		margin: 1em 0 0 1em;
+	}
+
+	.Plan {
+		font-size: 1.7em;
+		margin: 1em 0 0 1em;
+	}
+
+	.Gain {
+		font-size: 1.25em;
+		line-height: 1.6;
+		/* top | right | bottom | left */
+		margin: 1em 0 0 1em;
 	}
 
 	.subBtn {
